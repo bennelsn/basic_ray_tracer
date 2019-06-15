@@ -1,0 +1,17 @@
+CameraLookAt 0 0 0
+CameraLookFrom 0 1 3.5
+CameraLookUp 0 1 0
+FieldOfView 45
+DirectionToLight 1 0 .5 LightColor 1 1 1
+AmbientLight .1 .1 .1
+BackgroundColor .2 .2 .2
+Sphere Center .3 0 .4 Radius .09 Material Diffuse 0 1 0 SpecularHighlight 1 1 1 PhongConstant 32
+Sphere Center -.3 0 -.2 Radius .06 Material Diffuse 0 0 1 SpecularHighlight .5 1 .5 PhongConstant 32
+Sphere Center .3 .3 -.6 Radius .05 Material Diffuse 1 0 1 SpecularHighlight .5 1 .5 PhongConstant 100
+Sphere Center -.3 .3 -.3 Radius .078 Material Diffuse 0 1 1 SpecularHighlight .5 1 .5 PhongConstant 3
+Sphere Center -0.5 .4 0 Radius .09 Material Diffuse 1 0 0 SpecularHighlight .3 1 .5 PhongConstant 36
+Sphere Center 0 -.3 0 Radius .056 Material Diffuse .5 1 .5 SpecularHighlight .3 1 .5 PhongConstant 15
+Triangle .4 -.3 -.4  .1 .3 -.1  -.2 -.3 .2 Material Diffuse 0 0 1 SpecularHighlight 1 1 1 PhongConstant 32
+Triangle .3 -.3 -.4  0 .3 -.1  -.3 -.3 .2 Material Diffuse .3 1 .6 SpecularHighlight 1 1 1 PhongConstant 32
+Triangle .2 -.3 -.4  -.1 .3 -.1  -.4 -.3 .2 Material Diffuse .9 .3 .2 SpecularHighlight 1 .5 1 PhongConstant 40
+
